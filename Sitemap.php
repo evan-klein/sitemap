@@ -2,7 +2,7 @@
 
 namespace evan_klein\sitemap;
 
-require_once('ek.php');
+require_once('/usr/local/lib/evan-klein/ek/ek.php');
 use evan_klein\ek as ek;
 
 class Sitemap {

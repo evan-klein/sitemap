@@ -11,12 +11,12 @@ A simple PHP library for generating sitemaps.
 ```php
 <?php
 
-require_once('ek.php');
+require_once('/usr/local/lib/evan-klein/ek/ek.php');
 use evan_klein\ek as ek;
 
 ek\sendXMLHeader();
 
-require_once('Sitemap.php');
+require_once('/usr/local/lib/evan-klein/sitemap/Sitemap.php');
 $sitemap = new \evan_klein\sitemap\Sitemap('https://www.example.com');
 
 $sitemap->addURL('/')
