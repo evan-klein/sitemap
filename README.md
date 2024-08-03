@@ -1,6 +1,6 @@
 # Sitemap
 
-A simple PHP library for generating sitemaps.
+A simple PHP library for generating [sitemaps](https://www.sitemaps.org/).
 
 ## Requirements
 
